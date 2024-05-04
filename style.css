@@ -1,0 +1,248 @@
+@font-face {
+    font-family: shrikhand;
+    src: url(Shrikhand-Regular.ttf)
+  }
+  
+  @font-face {
+    font-family: poppins;
+    src: url(POPPINS/Poppins-Regular.ttf);
+  }
+  body{
+      margin: 0px;
+      padding: 0px;
+     font-family: shrikhand;
+    }
+  
+  /* NAVIGATION BAR */
+  nav {
+    height: 72px;
+    align-items: center;
+    background-color: #E5D283;
+    display: flex;
+    justify-content: flex-start
+    }
+  
+    nav ul {
+        margin: 0px 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }   
+    a{text-decoration: none;
+      color: #4F709C;
+    }
+  
+    nav ul li {
+        padding: 25px ;
+        color: #213555;
+        justify-content: center;
+        align-items: center;
+        list-style:none ;
+        text-align: center;
+     
+    }
+    nav ul li:active {
+        color: #213555;
+        font-style: normal;
+        text-decoration: none;
+    }
+  
+    nav ul li:hover {
+        color:#E5D283;
+        font-style: normal;
+        text-decoration: none;
+        background-color: #213555;
+        transition-duration: 0.5s;
+    }
+    nav img {
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+      margin: 0px 40px;
+  
+    }
+  
+  /* HEADER */
+  header {
+      width: auto;
+      height: 550px;
+      background-color: #213555;
+    }
+  
+    #show_bg_2 {
+      background-image:
+      linear-gradient(to bottom, rgba(229, 210, 131, 0.9), rgba(229, 210, 131, 0.5), rgba(229, 210, 131, 0.3), rgba(33, 53, 85, 0.5),  rgba(33, 53, 85, 1.0)),
+      url('Gambar/9.JPG');
+      width: auto;
+      height: 550px;
+      background-size: cover;
+      color: white;
+      padding: 20px;
+    }
+  #gambar2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+   right: 80px;
+    border-radius: 50px;
+    border:#4F709C;
+    }
+  #gambar3 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 350px;
+    left: 40px;
+    }
+  
+  h3 {
+    position: absolute;
+    font-family: shrikhand;
+    color: #E5D283;
+    font-align: center;
+    font-size: 60px;
+    top: 150px;
+    left: 75px;
+  
+  }
+  h1{
+    position: absolute;
+    font-family: shrikhand;
+    color: #E5D283;
+    font-align: center;
+    font-size: 45px;
+    top: 250px;
+    left: 75px;
+  
+  }
+  h2{
+    position: absolute;
+    font-family: poppins;
+    color: #E5D283;
+    font-align: center;
+    font-size: 20px;
+    top: 325px;
+    left: 75px;
+  }
+  
+  /* PROJECT */
+  .judul{
+    position: absolute;
+    font-size: 45px;
+    top: 280px;
+    color: #E5D283;
+  }
+  section {
+      height: 500px;
+      width: auto;
+      background-color: #213555;
+      padding: 00px;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 35px;
+    margin-bottom: 0px;
+    align-items: center;
+    grid-gap: 135px;
+  }
+  
+  img{
+    objek-fit: cover;
+  }
+  
+  .grid>article{
+    align-items: center;
+    box-shadow:  5px 5px 0px #4F709C;
+    border-radius: 30px;
+    text-align: center;
+    background: #E5D283;
+    width: 300px;
+    transition: all 600ms ease-in-out;
+  }
+  
+  .grid>article:hover {
+    transform: scale(1.1);
+  }
+  
+  .grid>article img{
+  border-radius: 30px;
+  }
+  
+  h4 {
+    font-size: 25px;
+    color: #213555;
+    cursor: none;
+  }
+  
+  /* Footer */
+  
+  
+  footer {
+      background-color: #E5D283;
+  }
+  .footercontainer{
+    width: auto;
+    padding: 70px 30px 20px;
+  }
+  .thanks{
+  text-align: center;
+  font-size: 45px;
+  }
+  
+  .socialicons{
+    display: flex;
+    justify-content: center;
+  }
+  .socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #E5D283;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialicons a i{
+    font-size: 2.5em;
+    color: #213555;
+    opacity: 0.9;
+  }
+  .socialicons a:hover{
+    background-color: #4F709C;
+    transition: 0.5s;
+  }
+  
+  .footernav{
+    margin: 30px o;
+  }
+  .footernav ul{
+    list-style: none;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+  }
+  .footernav ul li a{
+    list-style: none;
+    font-family: poppins;
+    color: #4F709C;
+    margin: 20px;
+    font-size: 1.1em;
+    transition: 0.5s;
+  }
+  .footernav ul li a:hover{
+    color: #213555;
+  }
+  .footerbottom{
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .footerbottom p{
+    color: #213555;
+    font-family: poppins;
+    font-weight: 500;
+  }
